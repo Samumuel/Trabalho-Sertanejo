@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrado Preto Transparente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#discografia">Discografia</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#noticia">Notícia</a></li>
+            <li><a href="#central-dos-fas">Central dos Fãs</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#loja">Loja</a></li>
+        </ul>
+    </nav>
+    
+    <div class="bg-img">
+        <div class="overlay">
+            <h1 class="title">CONTATO:</h1>
+            <h3>——————————————————</h3>
+            <p class="description">Confira a forma de contato com a banda:</p>
+            <div class="contact-sections">
+                <div class="section">
+                    <h2>SHOWS E EVENTOS:</h2>
+                    <p>Telefone: 45. 9119-1511<br>E-mail:contato@baroesdadopamina.com.br<br>Endereço: Av. Javier Koelbl - Jardim Eliza I, Foz do Iguaçu - PR <br>CEP: 85853-610 </p>
+                </div>
+                <div class="section">
+                    <h2>ASSESSORIA DE IMPRENSA</h2>
+                    <p>Telefone: (45) 99109-6775<br>E-mail: duduseduçao@assessoria.com.br
+
+                        </p>
+                </div>
+                <div class="section">
+                    <h2>CENTRAL DE FÃS</h2>
+                    <p>Telefone: (45)9810-4929 <br>E-mail: centraldadopamina@joaojoaoluizmuel.com.br </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
