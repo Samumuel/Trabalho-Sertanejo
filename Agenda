@@ -1,1 +1,64 @@
 // Samuel
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="base">
+            <div class="topo">
+                <h1 class="aa">Próximos Shows: </h1>
+                <hr>
+            </div> 
+            <div class="data1">
+                <h2 class="evento1">Arrócha Safado</h2>
+                <p class="dia1">Dia 16/08 - 22:00 <p class="loc1">Av. Javier Koelbl - Jardim Eliza I</p> </p>
+                
+            </div>
+        </div>
+    </main>   
+</body>
+</html>
+<style>
+    body{
+        background-image: url(imagens/aa.jpg);
+        background-size: cover;
+    }
+    main{
+        color: rgb(0, 0, 0);
+        font-family: "Oswald", sans-serif;
+    }
+    .aa{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+    .data1{
+        margin-left: 600px;
+        margin-right: 1000px;
+        background-color: rgba(240, 248, 255, 0.384);
+        text-align: center;
+    }
+    hr{
+        width: 14%;
+    }
+    .evento1{
+        margin-top: 40px;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+    .dia1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .loc1{
+        margin-top: 0;
+    }
+</style>
