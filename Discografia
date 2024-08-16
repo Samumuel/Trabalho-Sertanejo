@@ -9,6 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#discografia">Discografia</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#noticia">Notícia</a></li>
+            <li><a href="#central-dos-fas">Central dos Fãs</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#loja">Loja</a></li>
+        </ul>
+    </nav>
     <div class="titulo">
         <h1>Principais Álbuns</h1>
         <hr>
@@ -53,6 +66,7 @@
         font-weight: 300;
         color: rgb(0, 0, 0);
         font-family: "Oswald", sans-serif;
+        padding-top: 2%;
     }
     .base {
         width: 100%;
@@ -91,5 +105,57 @@
         width: 100%;
         height: auto;
         display: block;
+    }
+    .menu {
+        background-color: rgba(0, 0, 0, 0.0);
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu li {
+        margin: 0 15px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .menu a:hover {
+        color: #ddd;
+        transition: 0.5s;
+        border: none;
+        color: rgba(223, 217, 217, 0.685);
+        cursor: pointer;
+    }
+    .menu a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0%;
+        height: 2px;
+        background-color: #ffffff;
+        transition: width 0.4s ease-in-out;
+    }
+
+    .menu a:hover::after {
+        width: 100%;
     }
 </style>
