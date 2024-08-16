@@ -1,1 +1,73 @@
-// Samuel
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discografia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="topoFotos">
+            <h1 class="Titulo">Maiores sucessos: 
+                <hr>
+            </h1>
+        </div>
+        <div class="baseFotos">
+            <div class="album">
+                <p>Horários pagantes</p>
+                <img src="imagens/horariospagantes.jpg" alt="horariospagantes   ">
+            </div>
+            <div class="album">
+                <p>Vendi minha casa pra jogar no cassino</p>
+                <img src="imagens/Capa perdi tudo no cassino.jpg" alt="perditudo">
+            </div>
+            <div class="album">
+                <p>Tigrinho e Álcool</p>
+                <img src="imagens/alcool e slot.jpg" alt="tigrinhoebebida">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+<style>
+    .Titulo{
+    text-align: center;
+    margin-top: 40px;   
+    font-weight: 300;
+    margin-bottom: 0;
+    font-size: 44px;
+    height: 100px;
+    }
+    hr {
+        width: 18%;
+    }
+    body{
+        background-image: url(imagens/aa.jpg);
+        background-size: cover;
+    }
+    main{
+        color: rgb(0, 0, 0);
+        font-family: "Oswald", sans-serif;
+    }
+    .baseFotos{
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 2%;
+    }
+    .baseFotos .album img{
+        margin: 5%;
+        width: 600px;
+        height: 600px;
+        border-radius: 10%;
+    }
+    .baseFotos p{
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
+
