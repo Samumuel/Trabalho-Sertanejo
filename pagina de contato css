@@ -34,11 +34,12 @@ body, html {
     align-items: flex-start;
     border-radius: 10px; 
     text-align: left;
+
 }
 
 .title {
     margin: 0;
-    font-size: var(--title-font-size, 30px); 
+    font-size: var(--title-font-size, 40px); 
     font-weight: bold;
 }
 
@@ -93,12 +94,27 @@ body, html {
     font-size: 18px; /* Tamanho da fonte */
     font-family: Helvetica, Arial, sans-serif; /* Fonte do texto */
     font-weight: bold; /* Deixa o texto em negrito */
+    position: relative;
 }
 
 .menu a:hover {
     color: #ddd; /* Cor do texto quando o mouse passa sobre o link */
     transition: 0.5s;
     border: none;
-    color: rgba(223, 217, 217, 0.349);
+    color: rgba(223, 217, 217, 0.685);
     cursor: pointer;
+}
+.menu a::after {
+    content: ''; /* Cria um elemento vazio */
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Coloca a linha logo abaixo do texto */
+    width: 0%; /* Inicialmente, a linha tem largura 0 */
+    height: 2px; /* Espessura da linha */
+    background-color: #ffffff; /* Cor da linha */
+    transition: width 0.4s ease-in-out; /* Transição suave para o efeito de crescimento */
+}
+
+.menu a:hover::after {
+    width: 100%; /* Quando o mouse passa sobre o link, a linha cresce até 100% da largura do texto */
 }
