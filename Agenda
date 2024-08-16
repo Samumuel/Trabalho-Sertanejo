@@ -1,4 +1,3 @@
-// Samuel
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,15 +10,52 @@
 </head>
 <body>
     <main>
-        <div class="base">
-            <div class="topo">
-                <h1 class="aa">Próximos Shows: </h1>
+        <div class="topo">
+            <h1 class="titulo">Próximos Shows: 
                 <hr>
-            </div> 
-            <div class="data1">
-                <h2 class="evento1">Arrócha Safado</h2>
-                <p class="dia1">Dia 16/08 - 22:00 <p class="loc1">Av. Javier Koelbl - Jardim Eliza I</p> </p>
-                
+            </h1>
+        </div>
+        <div class="base">
+            <div class="esq">
+                <div class="eventos">
+                    <div class="datas">
+                        <h2>Arrócha Safado</h2>
+                        <p>Dia 16/08 - 22:00 <p>Av. Javier Koelbl - Jardim Eliza I</p> </p>
+                        <div class="fotos"><img src="imagens/festa.jpg" alt="imagem1"></div>
+                    </div>
+                </div>
+                <div class="eventos">
+                    <div class="datas">
+                        <h2>Bailão BomBonjour</h2>
+                        <p>Dia 08/01 - 19:00 <p>Rua GuiDovelter - 270</p> </p>
+                        <div class="fotos"> <img src="imagens/festa0801.jpg" alt="imagem2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dir">
+                <div class="eventos">
+                    <div class="datas">
+                        <h2>Noite Romântica</h2>
+                        <p>Dia 01/09 - 20:00 <p>Rua Ibitinga - 734</p> </p>
+                        <div class="fotos"><img src="imagens/festaromantica.jpg" alt="imagem3"></div>
+                    </div>
+                </div>
+                <div class="eventos">
+                    <div class="datas">
+                        <h2>Shows para os hammuds</h2>
+                        <p>Dia 11/09 - 20:00 <p>Kabul - Afeganistão</p> </p>
+                        <div class="fotos"><img src="imagens/arabesfestas.jpg" alt="imagem4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="centro">
+                <div class="eventos">
+                    <div class="datas">
+                        <h2>Shows Misterioso</h2>
+                        <p>Dia ??/?? - ??:?? <p>IFPR - Foz do Iguaçu</p> </p>
+                        <div class="fotos"><img src="imagens/interrogação.jpg" alt="imagem5"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>   
@@ -34,31 +70,54 @@
         color: rgb(0, 0, 0);
         font-family: "Oswald", sans-serif;
     }
-    .aa{
+    .titulo{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 45px;   
         font-weight: 300;
         margin-bottom: 0;
-    }
-    .data1{
-        margin-left: 600px;
-        margin-right: 1000px;
-        background-color: rgba(240, 248, 255, 0.384);
-        text-align: center;
+        font-size: 40px;
+        height: 100px;
     }
     hr{
-        width: 14%;
+        width: 18%;
     }
-    .evento1{
+    .base .esq {
+        padding-left: 25%;
+        height: 40%;
+        float: left;
+    }
+    .base .eventos {
+        max-height: 350px;
+        max-width: 250px;
+    }
+    .base .eventos .datas {
+        background-color: rgba(240, 248, 255, 0.384);
+        text-align: center;
+        width: 100%;
+        height: 50%;
+    }
+    .base .eventos .datas h2{
         margin-top: 40px;
         margin-bottom: 0;
         font-weight: 400;
     }
-    .dia1{
-        margin-top: 0;
+    .base .eventos .datas p{
+        margin-top: 1%;
         margin-bottom: 0;
     }
-    .loc1{
-        margin-top: 0;
+    .base .eventos .fotos img{
+        max-width: 250px;
+        max-height: 250px;
+        object-fit: cover;
+    }
+    .base .dir {
+        float: right;
+        padding-right: 25%;
+    }
+    .base .centro {
+        justify-content: center;
+        align-content: center;
+        padding: 5%;
+        padding-left: 7%;
     }
 </style>
