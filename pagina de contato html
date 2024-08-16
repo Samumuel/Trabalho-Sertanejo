@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato baroes da dopamina</title>
+    <title>Contatos baroes da dopamina</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="menu">
         <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#agenda">Agenda</a></li>
-            <li><a href="#discografia">Discografia</a></li>
+            <li><a href="http://127.0.0.1:5500/homepage.html">Início</a></li>
+            <li><a href="http://127.0.0.1:5500/historia.html">Historia</a></li>
+            <li><a href="http://127.0.0.1:5500/agenda.html">Agenda</a></li>
+            <li><a href="http://127.0.0.1:5500/discografia.html">Discografia</a></li>
             <li><a href="#fotos">Fotos</a></li>
-            <li><a href="#noticia">Notícia</a></li>
-            <li><a href="#central-dos-fas">Central dos Fãs</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="#loja">Loja</a></li>
+            <li><a href="#noticia">Musicas</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#sobre">Contato</a></li>
         </ul>
     </nav>
     
